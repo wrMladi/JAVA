@@ -1,5 +1,5 @@
 var cookies = {
-   topDomain: function(domain) {
+ topDomain: function(domain) {
     if (!domain) {
         return null;
     }
@@ -170,7 +170,7 @@ if (cookies.get('pzvnmnepzvn_clid')) {
     }
 };
 
-//Query related methods
+// Query related methods
 // Получает запрос на поиск параметра и отдает по регулярке
 var query = {
     getRawParam: function(url, name){
